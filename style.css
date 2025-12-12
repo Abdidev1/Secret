@@ -1,0 +1,115 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* A cute, readable font */
+    background: linear-gradient(135deg, #ffc0cb 0%, #ffe4e1 50%, #e0ffff 100%); /* Soft gradient: Pink to Light Blue */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 90%;
+    width: 600px;
+    border: 5px solid #ff69b4; /* Hot Pink Border */
+}
+
+.main-title {
+    color: #8a2be2; /* Blue-Violet */
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.highlight {
+    color: #ff69b4; /* Hot Pink */
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    color: #6a5acd; /* Slate Blue */
+    margin-bottom: 20px;
+}
+
+.countdown-section {
+    margin: 30px 0;
+}
+
+.countdown-box {
+    background-color: #ffb6c1; /* Light Pink */
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-timer {
+    font-size: 3.5em;
+    color: #dc143c; /* Crimson Red */
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+}
+
+.countdown-label {
+    font-size: 1.2em;
+    color: #8a2be2;
+    margin-top: 5px;
+}
+
+.memory-section {
+    margin-top: 40px;
+}
+
+.memory-card {
+    background-color: #fff0f5; /* Lavender Blush */
+    padding: 25px;
+    border-radius: 15px;
+    border: 3px dashed #ff1493; /* Deep Pink dashed border */
+    text-align: center;
+}
+
+.memory-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.memory-header h2 {
+    color: #8a2be2;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+.heart-icon {
+    font-size: 1.8em;
+    animation: pulse 1.5s infinite; /* Cute pulsing effect */
+}
+
+.memory-content {
+    font-size: 1.3em;
+    color: #4b0082; /* Indigo */
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #9370db; /* Medium Purple */
+}
+
+/* Keyframe for the pulsing heart */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+}
