@@ -5,20 +5,7 @@ const MS_PER_DAY = 1000 * 60 * 60 * 24;
 // Array of Memories/Feelings (Customize this!)
 // IMPORTANT: This array needs one entry for every day between today and July 24, 2026.
 // Start with Day 1 (closest to today) and continue until the day BEFORE her birthday.
-const dailyMemories = [
-    // DAY 1 (Dec 13, 2025) - Example:
-    "Remember that time we got in trouble in playgroup for trading snacks? I still laugh about it!",
-    // DAY 2 (Dec 14, 2025) - Example:
-    "Thinking about how much you make me smile, even on a gloomy day. 😊",
-    // DAY 3 (Dec 15, 2025) - Example:
-    "Today's feeling is pure excitement for the day we get to celebrate you next year!",
-    // DAY 4... up to 224 days (around July 23, 2026)
-    // **YOU MUST FILL IN ALL THE DAYS HERE**
 
-    // ... continue the list for every day ...
-    // ...
-    "Just one more sleep! I hope your day tomorrow is as amazing as you are!" // Day before Birthday
-];
 
 
 // --- Countdown & Memory Logic ---
