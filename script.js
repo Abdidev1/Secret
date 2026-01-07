@@ -19,7 +19,7 @@ function updateCountdown() {
     // Calculate the number of full days remaining
     const daysRemaining = Math.floor(distance / MS_PER_DAY);
     
-    // Calculate the number of days PASSED since the start (Dec 12, 2025)
+    // Calculate unlimited the number of days PASSED since the start (Dec 12, 2025)
     // The start date is Dec 12, 2025. We need to find the difference between today and the start date.
     // For simplicity, let's just use the daysRemaining to index the array from the END.
     
